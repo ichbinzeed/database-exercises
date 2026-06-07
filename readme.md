@@ -1,66 +1,61 @@
-# Humai Data Science Bootcamp Exercises
+# Humai Bootcamp Data Science Portfolio
 
 <p align="center">
-	<img src="der_humai.png" alt="Entity Relationship Diagram" width="860"/>
+	<img src="der_humai.png" alt="Entity Relationship Diagram from SQL practice" width="880"/>
 </p>
 
 <p align="center">
-	<b>Portfolio repository with real exercises from my Humai Data Scientist Bootcamp.</b><br/>
-	Focus: practical skills for a junior Data Scientist role.
+	<b>Hands-on exercises from my Humai Data Scientist Bootcamp.</b><br/>
+	I am building practical skills to work in a real data team.
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python"/>
+	<img src="https://img.shields.io/badge/Open%20to%20Work-Junior%20Data%20Roles-1C8C5E" alt="Open to work"/>
+	<img src="https://img.shields.io/badge/English-B1%20(learning%20to%20B2)-0057B8" alt="English level"/>
+	<img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?logo=python&logoColor=white" alt="Python"/>
 	<img src="https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MongoDB-1F6FEB" alt="SQL"/>
-	<img src="https://img.shields.io/badge/Quality-pylint%20%7C%20type%20hints-0A7EA4" alt="Quality"/>
-	<img src="https://img.shields.io/badge/Workflow-Git%20branches%20%7C%20PRs-1D9A6C" alt="Workflow"/>
+	<img src="https://img.shields.io/badge/Code%20Quality-pylint%20%7C%20type%20hints-0A7EA4" alt="Code quality"/>
 </p>
 
-## Profile Snapshot
+## Why Recruiters Like This Repo
 
-| Area          | What I practiced                                                   |
-| ------------- | ------------------------------------------------------------------ |
-| Data Analysis | Grouping, aggregation, joins, pivot tables, indexing, data quality |
-| SQL           | SQL I and II exercises, business queries, MongoDB basics           |
-| Python        | Clean code, logging, testing basics, package structure             |
-| Engineering   | Poetry, environments, Docker basics, Git branching flow            |
+| You can quickly see            | Evidence in this repository                                     |
+| ------------------------------ | --------------------------------------------------------------- |
+| Real practice, not only theory | Many notebooks and exercises solved end-to-end                  |
+| Technical range                | Python, SQL, data wrangling, visualization, API basics          |
+| Work habits                    | Git branches, clear commits, quality checks, reproducible setup |
 
-## Skills I Built
+## Core Skills
 
-- Pandas workflows for wrangling, cleaning, and analysis.
-- Visualization practice in notebooks for reporting and insights.
-- SQL query design with filters, joins, aggregates, and date logic.
-- Python quality habits with pylint and type hints.
-- Reproducible work with Poetry and virtual environments.
-- Team workflow with Git branches, commits, and merge process.
+- Data analysis with Pandas: cleaning, grouping, joins, pivot tables, indexing.
+- SQL problem solving: filters, joins, aggregates, date logic, business questions.
+- Data quality mindset: validation, consistency checks, and clean outputs.
+- Python quality practices: pylint, type hints, logging, and simple tests.
+- Project workflow: Poetry environments, branch strategy, and merge flow.
 
-## Repository Content
+## Repository Map
 
-| Folder                  | Main focus                                               |
-| ----------------------- | -------------------------------------------------------- |
-| `Ciencia de datos`      | Wrangling, visualization, pivot/indexing, quality checks |
-| `Desarrollo con Python` | CLI, typing, pylint, docs, poetry, logging               |
-| `Python Avanzado`       | OOP, unit testing, CI basics, concurrency, FastAPI intro |
-| `SQL` / `SQL NEW`       | SQL exercises, asynchronous practice, MongoDB intro      |
+| Folder                | Focus                                                  |
+| --------------------- | ------------------------------------------------------ |
+| Ciencia de datos      | Wrangling, visualization, pivot/indexing, data quality |
+| Desarrollo con Python | CLI, typing, pylint, docs, poetry, logging             |
+| Python Avanzado       | OOP, testing, CI basics, concurrency, FastAPI intro    |
+| SQL and SQL NEW       | SQL I/II exercises, async tasks, MongoDB intro         |
 
-## Git Notes
+## Selected Outcomes
 
-For quick commands and common fixes (stash, merge, blocked files in Windows), see:
+- Built SQL datasets and answered business questions with clean queries.
+- Created and documented a full ER diagram for relational tables.
+- Improved code readability and maintainability with quality tools.
+- Practiced team-like Git flow: branch, push, review, and merge.
+
+## Quick Git Help
+
+For real workflow commands and fixes, check:
 
 - [GIT_CHEATSHEET.md](GIT_CHEATSHEET.md)
 
-## Why This Repo Matters
-
-This work helped me improve:
-
-- analytical thinking,
-- code quality,
-- reproducible workflows,
-- and collaboration with Git.
-
-I am ready to keep growing in a real data team.
-
-## Author
+## Contact
 
 **Gustavo Nicolas Castellon**
 
