@@ -283,3 +283,941 @@ WHERE customer_id = 2;
 07/06/2026 18:11:03 | INFO | __main__ | Write query executed and committed successfully
 07/06/2026 18:11:03 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
 07/06/2026 18:11:03 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:15:54 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:15:54 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «ventas»
+LINE 2: select count(ventas) 
+                     ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «ventas»
+LINE 2: select count(ventas) 
+                     ^
+
+[SQL: 
+select count(ventas) 
+from humai.orders o
+where order_date.year == 2022
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:16:28 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:16:28 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:17:05 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:17:05 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 18:17:55 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:17:55 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:17:55 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:17:55 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:18:45 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:18:45 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:18:45 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:18:45 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «AS»
+LINE 2: SELECT *  AS PRIMERA_venta
+                  ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «AS»
+LINE 2: SELECT *  AS PRIMERA_venta
+                  ^
+
+[SQL: 
+SELECT *  AS PRIMERA_venta
+FROM humai.orders
+WHERE order_date = (SELECT MIN(order_date) FROM humai.orders);
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:24:01 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:24:01 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:24:01 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:24:01 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:25:51 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:25:51 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:25:51 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:25:51 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:26:46 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:26:46 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:26:46 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:26:46 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «primera_venta»
+LINE 8: WHERE o.order_date = primera_venta;
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «primera_venta»
+LINE 8: WHERE o.order_date = primera_venta;
+                             ^
+
+[SQL: 
+WITH primera_venta AS (
+    SELECT MIN(order_date) AS fecha_primera_venta
+    FROM humai.orders
+)
+SELECT *
+FROM humai.orders o
+WHERE o.order_date = primera_venta;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:27:22 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:27:22 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:27:22 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:27:22 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: falta una entrada para la tabla «primera_venta» en la cláusula FROM
+LINE 8: WHERE o.order_date = primera_venta.fecha_primera_venta;
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) falta una entrada para la tabla «primera_venta» en la cláusula FROM
+LINE 8: WHERE o.order_date = primera_venta.fecha_primera_venta;
+                             ^
+
+[SQL: 
+WITH primera_venta AS (
+    SELECT MIN(order_date) AS fecha_primera_venta
+    FROM humai.orders
+)
+SELECT *
+FROM humai.orders o
+WHERE o.order_date = primera_venta.fecha_primera_venta;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:27:33 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:27:33 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:27:33 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:27:33 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:28:37 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:28:37 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:28:37 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:28:37 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:28:56 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:28:56 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:28:56 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:28:56 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:28:56 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:28:56 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna o.total_amount
+LINE 2: SELECT o.customer_id, MAX(o.total_amount) AS venta_mayor
+                                  ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna o.total_amount
+LINE 2: SELECT o.customer_id, MAX(o.total_amount) AS venta_mayor
+                                  ^
+
+[SQL: 
+SELECT o.customer_id, MAX(o.total_amount) AS venta_mayor
+FROM humai.orders o
+GROUP BY o.customer_id;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:30:13 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:13 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:30:13 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:13 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:30:13 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:13 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.GroupingError: la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT *
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.GroupingError) la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT *
+               ^
+
+[SQL: 
+SELECT *
+FROM humai.orders o
+GROUP BY o.customer_id;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:30:33 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:33 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:30:33 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:33 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:30:33 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:33 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.GroupingError: la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT *
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.GroupingError) la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT *
+               ^
+
+[SQL: 
+SELECT *
+FROM humai.orders o
+GROUP BY o.customer_id
+HAVING o.order_price = MAX(o.order_price)
+;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:30:53 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:53 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:30:53 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:53 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:30:53 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:30:53 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 18:31:22 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:22 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:31:22 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:22 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:31:22 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:22 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.GroupingError: la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT order_id, SUM(order_price) AS total_gastado
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.GroupingError) la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT order_id, SUM(order_price) AS total_gastado
+               ^
+
+[SQL: 
+SELECT order_id, SUM(order_price) AS total_gastado
+FROM humai.orders o
+GROUP BY o.customer_id
+ORDER BY total_gastado DESC
+LIMIT 1;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:31:26 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:26 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:31:26 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:26 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:31:26 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:26 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.GroupingError: la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT order_id, SUM(order_price) AS total_gastado
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.GroupingError) la columna «o.order_id» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 2: SELECT order_id, SUM(order_price) AS total_gastado
+               ^
+
+[SQL: 
+SELECT order_id, SUM(order_price) AS total_gastado
+FROM humai.orders o
+GROUP BY o.customer_id
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:31:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:31:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:31:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:31:59 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:32:37 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:32:37 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:32:37 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:32:37 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:32:37 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:32:37 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:32:37 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:32:37 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+[SQL: 
+SELECT city, COUNT(*) AS cantidad_envios
+FROM humai.orders o
+WHERE city <> 'Belgrano'
+GROUP BY city
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:33:38 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:38 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:33:38 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:38 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:33:38 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:38 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:33:38 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:38 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+[SQL: 
+SELECT city, COUNT(*) AS cantidad_envios
+FROM humai.orders o
+JOIN humai.shipments s ON o.order_id = s.order_id
+WHERE city <> 'Belgrano'
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:33:47 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:47 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:33:47 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:47 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:33:47 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:47 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:33:47 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:47 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+[SQL: 
+SELECT city, COUNT(*) AS cantidad_envios
+FROM humai.orders o
+JOIN humai.shipments s ON o.order_id = s.order_id
+WHERE city <> 'Belgrano'
+GROUP BY city
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:33:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:58 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:33:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:58 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:33:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:58 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:33:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:33:58 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «city»
+LINE 5: WHERE city <> 'Belgrano'
+              ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «city»
+LINE 5: WHERE city <> 'Belgrano'
+              ^
+
+[SQL: 
+SELECT COUNT(*) AS cantidad_envios
+FROM humai.orders o
+JOIN humai.shipments s ON o.order_id = s.order_id
+WHERE city <> 'Belgrano'
+GROUP BY city
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:34:01 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:01 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:01 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:01 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:01 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:01 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:34:01 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:01 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «city»
+LINE 2: SELECT city, COUNT(*) AS cantidad_envios
+               ^
+
+[SQL: 
+SELECT city, COUNT(*) AS cantidad_envios
+FROM humai.orders o
+JOIN humai.shipments s ON o.order_id = s.order_id
+WHERE city <> 'Belgrano'
+GROUP BY city
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:34:31 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:31 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:31 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:31 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:31 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:31 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:34:31 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:31 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «AS»
+LINE 2: SELECT * AS cantidad_envios
+                 ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_18200\1684270722.py", line 77, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «AS»
+LINE 2: SELECT * AS cantidad_envios
+                 ^
+
+[SQL: 
+SELECT * AS cantidad_envios
+FROM humai.orders o
+JOIN humai.shipments s ON o.order_id = s.order_id
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 18:34:34 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:34 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:34 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:34 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:34 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:34 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:34:34 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:34 | INFO | __main__ | Read query executed successfully | rows=5
+07/06/2026 18:34:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:58 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:58 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:34:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:58 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:34:58 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:34:58 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:35:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:35:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:35:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:35:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:35:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:35:59 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:35:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:35:59 | INFO | __main__ | Read query executed successfully | rows=5
+07/06/2026 18:36:12 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:36:12 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:36:12 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:36:12 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:36:12 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:36:12 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:36:12 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:36:12 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:40:16 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:40:16 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:40:16 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:40:16 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:40:16 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:40:16 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:40:16 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:40:16 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:40:16 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:40:16 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:40:33 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:40:33 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:41:18 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:18 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:18 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:18 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:18 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:18 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:41:18 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:18 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:18 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:18 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:18 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:18 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:29 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:29 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:29 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:29 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:29 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:29 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:41:29 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:29 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:29 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:29 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:29 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:29 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:41:59 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:41:59 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 18:42:49 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:42:49 | INFO | __main__ | Read query executed successfully | rows=2
