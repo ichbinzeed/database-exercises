@@ -29,7 +29,6 @@ I used it to practice data analysis, Python development, SQL, and clean code hab
 - Code quality tools: pylint and readable, maintainable code standards.
 - Development workflow: Git branches, commits, pull-request style work, and version control discipline.
 - Environment and packaging basics: Poetry, virtual environments, and dependency management.
-- Intro tools for production mindset: Docker basics and FastAPI introduction.
 
 ## Repository topics
 
