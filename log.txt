@@ -10,3 +10,276 @@
 07/06/2026 15:48:08 | INFO | __main__ | Write query executed and committed successfully
 07/06/2026 15:48:08 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
 07/06/2026 15:48:08 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:38:01 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:38:01 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:38:01 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:38:01 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:38:01 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:38:01 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:38:01 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:38:01 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:38:01 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:38:01 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:38:01 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 16:38:01 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:10 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 16:39:10 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:39:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:39:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:39:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:39:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:39:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 16:39:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:39:40 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 16:39:40 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:42:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:42:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:42:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:42:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:42:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 16:42:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:42:20 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 16:42:20 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 16:47:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:47:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:47:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:47:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:47:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:47:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:47:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 16:47:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:47:40 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 16:47:40 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 16:47:40 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 16:47:40 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 17:11:20 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:11:20 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:20 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:11:20 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:11:27 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:11:27 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1936, in _exec_single_context
+    self.dialect.do_executemany(
+  File "c:\python312\Lib\site-packages\sqlalchemy\dialects\postgresql\psycopg2.py", line 800, in do_executemany
+    cursor.executemany(statement, parameters)
+psycopg2.errors.UniqueViolation: llave duplicada viola restricción de unicidad «orders_pkey»
+DETAIL:  Ya existe la llave (order_id)=(1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_19244\1027087564.py", line 67, in exec_sql
+    conn.execute(statement, params)
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1936, in _exec_single_context
+    self.dialect.do_executemany(
+  File "c:\python312\Lib\site-packages\sqlalchemy\dialects\postgresql\psycopg2.py", line 800, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «orders_pkey»
+DETAIL:  Ya existe la llave (order_id)=(1).
+
+[SQL: INSERT INTO humai.orders (order_id, customer_id, order_date, order_price)
+VALUES (%(order_id)s, %(customer_id)s, %(order_date)s, %(order_price)s)
+]
+[parameters: [{'order_id': 1, 'customer_id': 1, 'order_date': '2022-05-06', 'order_price': 45.0}, {'order_id': 2, 'customer_id': 1, 'order_date': '2021-05-06', 'order_price': 60.0}, {'order_id': 3, 'customer_id': 1, 'order_date': '2022-06-06', 'order_price': 70.0}, {'order_id': 4, 'customer_id': 2, 'order_date': '2022-05-01', 'order_price': 5.0}, {'order_id': 5, 'customer_id': 3, 'order_date': '2022-10-06', 'order_price': 145.0}, {'order_id': 6, 'customer_id': 3, 'order_date': '2022-02-03', 'order_price': 2.0}]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:11:32 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:11:32 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:11:32 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:11:32 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:11:32 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:11:32 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:11:32 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:11:32 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:11:32 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:27:56 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:27:56 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:27:56 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:27:56 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:29:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:29:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:29:15 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:31:26 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:31:26 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «order_value» en la relación «orders»
+LINE 3: SET order_value = 200
+            ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_4964\1684270722.py", line 82, in exec_sql
+    conn.execute(statement, params)
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «order_value» en la relación «orders»
+LINE 3: SET order_value = 200
+            ^
+
+[SQL: 
+UPDATE humai.orders
+SET order_value = 200
+WHERE order_id = 5;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+07/06/2026 17:32:12 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:32:12 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:32:12 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:32:12 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 17:33:24 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:33:24 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 17:33:24 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:33:24 | ERROR | __main__ | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: update o delete en «customers» viola la llave foránea «orders_customer_id_fkey» en la tabla «orders»
+DETAIL:  La llave (customer_id)=(2) todavía es referida desde la tabla «orders».
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_4964\1684270722.py", line 82, in exec_sql
+    conn.execute(statement, params)
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) update o delete en «customers» viola la llave foránea «orders_customer_id_fkey» en la tabla «orders»
+DETAIL:  La llave (customer_id)=(2) todavía es referida desde la tabla «orders».
+
+[SQL: 
+DELETE FROM humai.customers
+WHERE customer_id = 2;
+]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Read query executed successfully | rows=6
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Read query executed successfully | rows=1
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Read query executed successfully | rows=3
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 17:39:15 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 17:39:15 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 17:39:15 | INFO | __main__ | Read query executed successfully | rows=2
+07/06/2026 18:11:03 | INFO | __main__ | Executing SQL query | read_query=False | has_params=True
+07/06/2026 18:11:03 | INFO | __main__ | Write query executed and committed successfully
+07/06/2026 18:11:03 | INFO | __main__ | Executing SQL query | read_query=True | has_params=False
+07/06/2026 18:11:03 | INFO | __main__ | Read query executed successfully | rows=1
