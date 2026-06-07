@@ -1,52 +1,64 @@
 # Humai Data Science Bootcamp Exercises
 
 <p align="center">
-	<img src="der_humai.png" alt="Humai banner" width="780"/>
+	<img src="der_humai.png" alt="Entity Relationship Diagram" width="860"/>
 </p>
 
 <p align="center">
-	<b>Practice repository from my Humai Data Scientist Bootcamp.</b><br/>
-	Real exercises to build technical skills for a junior data role.
+	<b>Portfolio repository with real exercises from my Humai Data Scientist Bootcamp.</b><br/>
+	Focus: practical skills for a junior Data Scientist role.
 </p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python"/>
-	<img src="https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MongoDB-336791" alt="SQL"/>
-	<img src="https://img.shields.io/badge/Tools-Jupyter%20%7C%20Git%20%7C%20Docker-0db7ed" alt="Tools"/>
+	<img src="https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MongoDB-1F6FEB" alt="SQL"/>
+	<img src="https://img.shields.io/badge/Quality-pylint%20%7C%20type%20hints-0A7EA4" alt="Quality"/>
+	<img src="https://img.shields.io/badge/Workflow-Git%20branches%20%7C%20PRs-1D9A6C" alt="Workflow"/>
 </p>
 
-## About this repo
+## Profile Snapshot
 
-This repository contains my bootcamp exercises, notebooks, and small projects.
-I used it to practice data analysis, Python development, SQL, and clean code habits.
+| Area          | What I practiced                                                   |
+| ------------- | ------------------------------------------------------------------ |
+| Data Analysis | Grouping, aggregation, joins, pivot tables, indexing, data quality |
+| SQL           | SQL I and II exercises, business queries, MongoDB basics           |
+| Python        | Clean code, logging, testing basics, package structure             |
+| Engineering   | Poetry, environments, Docker basics, Git branching flow            |
 
-## What I learned
+## Skills I Built
 
-- Data analysis with Pandas: grouping, aggregation, pivot tables, joins, indexing, and data quality checks.
-- Data visualization with Matplotlib/Seaborn style workflows in notebooks.
-- SQL practice: queries, async exercises, and NoSQL basics with MongoDB.
-- Python best practices: type hints (pyhints), logging, testing basics, and project structure.
-- Code quality tools: pylint and readable, maintainable code standards.
-- Development workflow: Git branches, commits, pull-request style work, and version control discipline.
-- Environment and packaging basics: Poetry, virtual environments, and dependency management.
+- Pandas workflows for wrangling, cleaning, and analysis.
+- Visualization practice in notebooks for reporting and insights.
+- SQL query design with filters, joins, aggregates, and date logic.
+- Python quality habits with pylint and type hints.
+- Reproducible work with Poetry and virtual environments.
+- Team workflow with Git branches, commits, and merge process.
 
-## Repository topics
+## Repository Content
 
-- Ciencia de datos: wrangling, visualization, pivot/indexing, quality, and exam notebooks.
-- Desarrollo con Python: CLI, typing, pylint, docs, poetry, logging, and exercises.
-- Python Avanzado: OOP, testing, CI basics, concurrency, and FastAPI intro.
-- SQL / SQL NEW: SQL I & II exercises, MongoDB practice, and guided solutions.
+| Folder                  | Main focus                                               |
+| ----------------------- | -------------------------------------------------------- |
+| `Ciencia de datos`      | Wrangling, visualization, pivot/indexing, quality checks |
+| `Desarrollo con Python` | CLI, typing, pylint, docs, poetry, logging               |
+| `Python Avanzado`       | OOP, unit testing, CI basics, concurrency, FastAPI intro |
+| `SQL` / `SQL NEW`       | SQL exercises, asynchronous practice, MongoDB intro      |
 
-## Why this is important for work
+## Git Notes
 
-These exercises helped me build a strong base in:
+For quick commands and common fixes (stash, merge, blocked files in Windows), see:
+
+- [GIT_CHEATSHEET.md](GIT_CHEATSHEET.md)
+
+## Why This Repo Matters
+
+This work helped me improve:
 
 - analytical thinking,
-- cleaner code,
+- code quality,
 - reproducible workflows,
-- and team-ready Git practices.
+- and collaboration with Git.
 
-I am ready to keep learning in a real data team.
+I am ready to keep growing in a real data team.
 
 ## Author
 
