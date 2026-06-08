@@ -15,7 +15,41 @@
 	<img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?logo=python&logoColor=white" alt="Python"/>
 	<img src="https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MongoDB-1F6FEB" alt="SQL"/>
 	<img src="https://img.shields.io/badge/Code%20Quality-pylint%20%7C%20type%20hints-0A7EA4" alt="Code quality"/>
+	<img src="https://img.shields.io/badge/MongoDB-Atlas%20%7C%20PyMongo-00A35C?logo=mongodb&logoColor=white" alt="MongoDB Atlas"/>
 </p>
+
+## MongoDB Exercises Spotlight
+
+<p>
+  <a href="MongoEx.ipynb"><img src="https://img.shields.io/badge/Notebook-MongoEx.ipynb-2B6CB0" alt="MongoEx notebook"/></a>
+  <img src="https://img.shields.io/badge/Connection-Atlas%20with%20.env-0F766E" alt="Atlas connection"/>
+  <img src="https://img.shields.io/badge/Operations-CRUD%20%7C%20Filters%20%7C%20Aggregation-7C3AED" alt="Mongo operations"/>
+  <img src="https://img.shields.io/badge/Updates-Idempotent%20logic-CA8A04" alt="Idempotent updates"/>
+</p>
+
+| What I practiced                   | Real result                                        |
+| ---------------------------------- | -------------------------------------------------- |
+| Atlas cloud connection from `.env` | Connected and validated with `ping`                |
+| CRUD with PyMongo                  | Inserted, updated, deleted, counted documents      |
+| Business filters                   | Queries by age, product count, and product name    |
+| Advanced update logic              | Fixed `$size` query using `$expr` + `$size`        |
+| Safe re-execution                  | Used `$addToSet` to avoid duplicate "Bolso Gratis" |
+| Data quality check                 | Aggregation to detect duplicated values in arrays  |
+
+<details>
+  <summary><b>MongoDB challenge solved</b></summary>
+
+I found and fixed two common MongoDB issues:
+
+1. Invalid filter with `$size` + `$gte`.
+2. Duplicate values after running the same update many times.
+
+Final solution:
+
+- Use `$expr` when comparing array size with operators.
+- Use `$addToSet` for idempotent updates.
+- Use aggregation to verify no duplicates remain.
+</details>
 
 ## Why Recruiters Like This Repo
 
@@ -46,6 +80,8 @@
 
 - Built SQL datasets and answered business questions with clean queries.
 - Created and documented a full ER diagram for relational tables.
+- Connected and worked with MongoDB Atlas using secure credentials from `.env`.
+- Implemented idempotent MongoDB updates to avoid duplicated array values.
 - Improved code readability and maintainability with quality tools.
 - Practiced team-like Git flow: branch, push, review, and merge.
 
