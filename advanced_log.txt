@@ -1,0 +1,669 @@
+08/06/2026 00:31:37 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 00:31:37 | INFO | Advanced | Read query executed successfully | rows=5
+08/06/2026 00:33:45 | WARNING | Advanced | Admin database 'postgres' is not available
+08/06/2026 00:33:45 | INFO | Advanced | Admin connection established using 'template1'
+08/06/2026 00:33:45 | INFO | Advanced | Database 'NUEVO' already exists
+08/06/2026 00:34:08 | WARNING | Advanced | Admin database 'postgres' is not available
+08/06/2026 00:34:08 | INFO | Advanced | Admin connection established using 'template1'
+08/06/2026 00:34:08 | INFO | Advanced | Database 'HUMAI' created
+08/06/2026 00:34:13 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 00:34:13 | INFO | Advanced | Read query executed successfully | rows=6
+08/06/2026 00:40:32 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 00:40:32 | INFO | Advanced | Read query executed successfully | rows=6
+08/06/2026 00:42:08 | INFO | Advanced | Executing SQL query | read_query=False | has_params=False
+08/06/2026 00:42:08 | INFO | Advanced | Write query executed and committed successfully
+08/06/2026 01:02:45 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:02:45 | INFO | Advanced | Read query executed successfully | rows=10
+08/06/2026 01:03:03 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:03:03 | INFO | Advanced | Read query executed successfully | rows=9
+08/06/2026 01:04:25 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:04:25 | INFO | Advanced | Read query executed successfully | rows=9
+08/06/2026 01:04:29 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:04:29 | INFO | Advanced | Read query executed successfully | rows=9
+08/06/2026 01:04:29 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:04:29 | INFO | Advanced | Read query executed successfully | rows=9
+08/06/2026 01:12:31 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:12:31 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: no existe la relación «adopcion_ia»
+LINE 3: FROM adopcion_ia a
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) no existe la relación «adopcion_ia»
+LINE 3: FROM adopcion_ia a
+             ^
+
+[SQL: 
+SELECT *
+FROM adopcion_ia a
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:12:41 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:12:41 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: no existe la relación «adopcion_ia»
+LINE 3: FROM adopcion_ia
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) no existe la relación «adopcion_ia»
+LINE 3: FROM adopcion_ia
+             ^
+
+[SQL: 
+SELECT *
+FROM adopcion_ia
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:12:43 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:12:43 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: no existe la relación «adopcion_ia»
+LINE 3: FROM adopcion_ia;
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) no existe la relación «adopcion_ia»
+LINE 3: FROM adopcion_ia;
+             ^
+
+[SQL: 
+SELECT *
+FROM adopcion_ia;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:12:49 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:12:50 | INFO | Advanced | Read query executed successfully | rows=145000
+08/06/2026 01:12:56 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:12:57 | INFO | Advanced | Read query executed successfully | rows=145000
+08/06/2026 01:14:42 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:14:42 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: no existe la función mean(double precision)
+LINE 2: SELECT ai_tool, mean(a.adoption_rate) as promedio_adopcion
+                        ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) no existe la función mean(double precision)
+LINE 2: SELECT ai_tool, mean(a.adoption_rate) as promedio_adopcion
+                        ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+[SQL: 
+SELECT ai_tool, mean(a.adoption_rate) as promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY ai_tool
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:14:51 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:14:51 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: no existe la función mean(double precision)
+LINE 2: SELECT ai_tool, mean(a.adoption_rate) as promedio_adopcion
+                        ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) no existe la función mean(double precision)
+LINE 2: SELECT ai_tool, mean(a.adoption_rate) as promedio_adopcion
+                        ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+[SQL: 
+SELECT ai_tool, mean(a.adoption_rate) as promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY a.ai_tool
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:15:13 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:15:13 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedFunction: no existe la función mean(double precision)
+LINE 2: SELECT ai_tool, MEAN(a.adoption_rate) as promedio_adopcion
+                        ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) no existe la función mean(double precision)
+LINE 2: SELECT ai_tool, MEAN(a.adoption_rate) as promedio_adopcion
+                        ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+[SQL: 
+SELECT ai_tool, MEAN(a.adoption_rate) as promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY a.ai_tool
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:15:20 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:15:20 | INFO | Advanced | Read query executed successfully | rows=5
+08/06/2026 01:17:14 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:17:14 | INFO | Advanced | Read query executed successfully | rows=3
+08/06/2026 01:17:29 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:17:30 | INFO | Advanced | Read query executed successfully | rows=3
+08/06/2026 01:17:58 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:17:58 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+[SQL: 
+SELECT a.country, a.year, ai_tool, AVG(adoption_rate) AS promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY a.country, a.year, ai_tool
+ORDER BY promedio_adopcion DESC
+CUBE (country, year)
+LIMIT 3;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:18:07 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:18:07 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+[SQL: 
+SELECT a.country, a.year, ai_tool, AVG(adoption_rate) AS promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY a.country, a.year, ai_tool
+
+CUBE (country, year)
+LIMIT 3;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:18:14 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:18:14 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+[SQL: 
+SELECT a.country, a.year, ai_tool, AVG(adoption_rate) AS promedio_adopcion
+FROM humai.adopcion_ia a
+
+ORDER BY promedio_adopcion DESC
+CUBE (country, year)
+LIMIT 3;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:18:20 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:18:20 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (country, year)
+        ^
+
+[SQL: 
+SELECT a.country, a.year, ai_tool, AVG(adoption_rate) AS promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY CUBE(a.country, a.year, ai_tool)
+ORDER BY promedio_adopcion DESC
+CUBE (country, year)
+LIMIT 3;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:18:35 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:18:35 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (a.country, a.year)
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_16712\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) error de sintaxis en o cerca de «CUBE»
+LINE 6: CUBE (a.country, a.year)
+        ^
+
+[SQL: 
+SELECT a.country, a.year, ai_tool, AVG(adoption_rate) AS promedio_adopcion
+FROM humai.adopcion_ia a
+GROUP BY CUBE(a.country, a.year, ai_tool)
+ORDER BY promedio_adopcion DESC
+CUBE (a.country, a.year)
+LIMIT 3;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+08/06/2026 01:19:03 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:19:03 | INFO | Advanced | Read query executed successfully | rows=198
+08/06/2026 01:19:20 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:19:20 | INFO | Advanced | Read query executed successfully | rows=100
+08/06/2026 01:19:42 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 01:19:42 | INFO | Advanced | Read query executed successfully | rows=100
+08/06/2026 12:10:05 | WARNING | Advanced | Admin database 'postgres' is not available
+08/06/2026 12:10:05 | INFO | Advanced | Admin connection established using 'template1'
+08/06/2026 12:10:05 | INFO | Advanced | Database 'HUMAI' already exists
+08/06/2026 12:10:05 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 12:10:05 | INFO | Advanced | Read query executed successfully | rows=6
+08/06/2026 12:10:05 | INFO | Advanced | Executing SQL query | read_query=False | has_params=False
+08/06/2026 12:10:05 | INFO | Advanced | Write query executed and committed successfully
+08/06/2026 12:10:12 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 12:10:12 | INFO | Advanced | Read query executed successfully | rows=10
+08/06/2026 12:10:12 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 12:10:12 | INFO | Advanced | Read query executed successfully | rows=9
+08/06/2026 12:10:12 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 12:10:12 | INFO | Advanced | Read query executed successfully | rows=100
+08/06/2026 12:10:54 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 12:10:54 | INFO | Advanced | Read query executed successfully | rows=100
+08/06/2026 12:11:43 | INFO | Advanced | Executing SQL query | read_query=True | has_params=False
+08/06/2026 12:11:43 | ERROR | Advanced | SQL execution failed, transaction rolled back
+Traceback (most recent call last):
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: no existe la columna «tool_name»
+LINE 6:         tool_name,
+                ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZeeD\AppData\Local\Temp\ipykernel_17176\1831314551.py", line 90, in exec_sql
+    result = conn.execute(statement, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "c:\python312\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) no existe la columna «tool_name»
+LINE 6:         tool_name,
+                ^
+
+[SQL: 
+WITH ranked_tools AS (
+    SELECT
+        country,
+        year,
+        tool_name,
+        adoption_rate,
+        RANK() OVER (PARTITION BY country, year ORDER BY adoption_rate DESC) AS rank
+    FROM
+        humai.adopcion_ia
+)
+SELECT
+    country,
+    year,
+    tool_name,
+    adoption_rate
+FROM
+    ranked_tools
+WHERE
+    rank <= 3
+ORDER BY
+    country,
+    year,
+    adoption_rate DESC;
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
