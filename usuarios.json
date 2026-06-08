@@ -1,0 +1,100 @@
+{"id": 1, "nombre": "Ana Ram\u00edrez", "edad": 44, "productos": [], "email": "ana0@ejemplo.com"}
+{"id": 2, "nombre": "Luis P\u00e9rez", "edad": 32, "productos": ["Zapatillas", "Pantal\u00f3n", "Corbata", "Cintur\u00f3n", "Camiseta", "Reloj"], "email": "luis1@ejemplo.com"}
+{"id": 3, "nombre": "Isabel P\u00e9rez", "edad": 64, "productos": ["Camiseta", "Bolso", "Gafas", "Zapatos", "Pantal\u00f3n", "Cintur\u00f3n", "Sombrero", "Zapatillas"], "email": "isabel2@ejemplo.com"}
+{"id": 4, "nombre": "Luis Torres", "edad": 51, "productos": [], "email": "luis3@ejemplo.com"}
+{"id": 5, "nombre": "Miguel P\u00e9rez", "edad": 22, "productos": ["Pantal\u00f3n", "Zapatos", "Reloj", "Zapatillas", "Sombrero"], "email": "miguel4@ejemplo.com"}
+{"id": 6, "nombre": "Pedro P\u00e9rez", "edad": 30, "productos": [], "email": "pedro5@ejemplo.com"}
+{"id": 7, "nombre": "Miguel Gonz\u00e1lez", "edad": 31, "productos": ["Cintur\u00f3n", "Corbata", "Sombrero", "Camiseta", "Zapatillas", "Gafas", "Bolso"], "email": "miguel6@ejemplo.com"}
+{"id": 8, "nombre": "Luis Torres", "edad": 27, "productos": [], "email": "luis7@ejemplo.com"}
+{"id": 9, "nombre": "Ana P\u00e9rez", "edad": 36, "productos": ["Zapatillas", "Bolso", "Sombrero"], "email": "ana8@ejemplo.com"}
+{"id": 10, "nombre": "Juan Ram\u00edrez", "edad": 31, "productos": ["Camiseta", "Pantal\u00f3n", "Bolso", "Sombrero", "Gafas", "Zapatos", "Cintur\u00f3n", "Zapatillas"], "email": "juan9@ejemplo.com"}
+{"id": 11, "nombre": "Luis Gonz\u00e1lez", "edad": 47, "productos": ["Pantal\u00f3n", "Reloj", "Zapatos", "Bolso", "Corbata", "Cintur\u00f3n", "Sombrero", "Camiseta"], "email": "luis10@ejemplo.com"}
+{"id": 12, "nombre": "Fernando Fern\u00e1ndez", "edad": 54, "productos": ["Sombrero", "Bolso", "Camiseta", "Reloj", "Gafas", "Pantal\u00f3n", "Zapatos"], "email": "fernando11@ejemplo.com"}
+{"id": 13, "nombre": "Mar\u00eda Gonz\u00e1lez", "edad": 54, "productos": ["Camiseta", "Pantal\u00f3n", "Gafas"], "email": "mar\u00eda12@ejemplo.com"}
+{"id": 14, "nombre": "Mar\u00eda Ram\u00edrez", "edad": 30, "productos": ["Corbata", "Zapatos", "Zapatillas", "Pantal\u00f3n"], "email": "mar\u00eda13@ejemplo.com"}
+{"id": 15, "nombre": "Mar\u00eda Ram\u00edrez", "edad": 26, "productos": ["Cintur\u00f3n", "Zapatos", "Reloj", "Sombrero", "Gafas", "Bolso"], "email": "mar\u00eda14@ejemplo.com"}
+{"id": 16, "nombre": "Isabel Gonz\u00e1lez", "edad": 48, "productos": [], "email": "isabel15@ejemplo.com"}
+{"id": 17, "nombre": "Juan L\u00f3pez", "edad": 26, "productos": ["Pantal\u00f3n", "Sombrero", "Camiseta", "Zapatillas", "Cintur\u00f3n", "Bolso", "Reloj", "Zapatos"], "email": "juan16@ejemplo.com"}
+{"id": 18, "nombre": "Isabel L\u00f3pez", "edad": 26, "productos": ["Sombrero", "Corbata", "Bolso", "Gafas", "Cintur\u00f3n", "Camiseta", "Reloj", "Zapatos"], "email": "isabel17@ejemplo.com"}
+{"id": 19, "nombre": "Fernando Ram\u00edrez", "edad": 63, "productos": ["Sombrero", "Reloj", "Camiseta", "Cintur\u00f3n", "Zapatillas", "Zapatos", "Gafas", "Corbata"], "email": "fernando18@ejemplo.com"}
+{"id": 20, "nombre": "Ana L\u00f3pez", "edad": 31, "productos": ["Bolso", "Gafas", "Sombrero", "Reloj", "Zapatillas", "Zapatos", "Cintur\u00f3n"], "email": "ana19@ejemplo.com"}
+{"id": 21, "nombre": "Luis Mart\u00ednez", "edad": 56, "productos": ["Zapatillas", "Corbata", "Pantal\u00f3n"], "email": "luis20@ejemplo.com"}
+{"id": 22, "nombre": "Pedro Rodr\u00edguez", "edad": 60, "productos": ["Reloj", "Cintur\u00f3n", "Pantal\u00f3n", "Gafas", "Bolso", "Sombrero", "Zapatos"], "email": "pedro21@ejemplo.com"}
+{"id": 23, "nombre": "Miguel S\u00e1nchez", "edad": 46, "productos": ["Bolso", "Gafas", "Cintur\u00f3n", "Sombrero", "Corbata", "Zapatillas", "Camiseta"], "email": "miguel22@ejemplo.com"}
+{"id": 24, "nombre": "Juan Garc\u00eda", "edad": 28, "productos": ["Zapatos", "Pantal\u00f3n", "Bolso", "Cintur\u00f3n", "Zapatillas", "Camiseta"], "email": "juan23@ejemplo.com"}
+{"id": 25, "nombre": "Teresa Garc\u00eda", "edad": 27, "productos": ["Cintur\u00f3n", "Zapatos", "Corbata", "Bolso", "Sombrero"], "email": "teresa24@ejemplo.com"}
+{"id": 26, "nombre": "Luis Rodr\u00edguez", "edad": 35, "productos": ["Camiseta", "Cintur\u00f3n"], "email": "luis25@ejemplo.com"}
+{"id": 27, "nombre": "Carmen Fern\u00e1ndez", "edad": 20, "productos": [], "email": "carmen26@ejemplo.com"}
+{"id": 28, "nombre": "Ana L\u00f3pez", "edad": 40, "productos": ["Camiseta", "Zapatos", "Cintur\u00f3n", "Corbata", "Bolso", "Zapatillas", "Pantal\u00f3n", "Sombrero"], "email": "ana27@ejemplo.com"}
+{"id": 29, "nombre": "Pedro Rodr\u00edguez", "edad": 26, "productos": ["Bolso", "Corbata", "Sombrero"], "email": "pedro28@ejemplo.com"}
+{"id": 30, "nombre": "Luis Garc\u00eda", "edad": 19, "productos": ["Zapatos", "Sombrero", "Zapatillas", "Bolso"], "email": "luis29@ejemplo.com"}
+{"id": 31, "nombre": "Pedro Garc\u00eda", "edad": 40, "productos": ["Pantal\u00f3n"], "email": "pedro30@ejemplo.com"}
+{"id": 32, "nombre": "Luis Rodr\u00edguez", "edad": 47, "productos": ["Reloj", "Cintur\u00f3n", "Zapatillas", "Pantal\u00f3n"], "email": "luis31@ejemplo.com"}
+{"id": 33, "nombre": "Isabel P\u00e9rez", "edad": 21, "productos": ["Reloj", "Zapatos", "Bolso"], "email": "isabel32@ejemplo.com"}
+{"id": 34, "nombre": "Juan Torres", "edad": 52, "productos": ["Cintur\u00f3n", "Bolso", "Sombrero"], "email": "juan33@ejemplo.com"}
+{"id": 35, "nombre": "Isabel S\u00e1nchez", "edad": 29, "productos": ["Zapatillas", "Bolso", "Cintur\u00f3n", "Zapatos", "Sombrero", "Pantal\u00f3n", "Reloj", "Corbata"], "email": "isabel34@ejemplo.com"}
+{"id": 36, "nombre": "Fernando Torres", "edad": 31, "productos": [], "email": "fernando35@ejemplo.com"}
+{"id": 37, "nombre": "Fernando Torres", "edad": 35, "productos": ["Zapatillas", "Reloj", "Sombrero", "Corbata", "Zapatos", "Gafas", "Cintur\u00f3n", "Pantal\u00f3n"], "email": "fernando36@ejemplo.com"}
+{"id": 38, "nombre": "Mar\u00eda P\u00e9rez", "edad": 53, "productos": ["Camiseta", "Reloj", "Gafas"], "email": "mar\u00eda37@ejemplo.com"}
+{"id": 39, "nombre": "Juan Mart\u00ednez", "edad": 60, "productos": ["Sombrero", "Camiseta", "Bolso"], "email": "juan38@ejemplo.com"}
+{"id": 40, "nombre": "Carmen S\u00e1nchez", "edad": 55, "productos": [], "email": "carmen39@ejemplo.com"}
+{"id": 41, "nombre": "Juan Gonz\u00e1lez", "edad": 52, "productos": ["Gafas", "Pantal\u00f3n", "Zapatos"], "email": "juan40@ejemplo.com"}
+{"id": 42, "nombre": "Mar\u00eda Torres", "edad": 44, "productos": [], "email": "mar\u00eda41@ejemplo.com"}
+{"id": 43, "nombre": "Juan Mart\u00ednez", "edad": 49, "productos": ["Pantal\u00f3n"], "email": "juan42@ejemplo.com"}
+{"id": 44, "nombre": "Teresa S\u00e1nchez", "edad": 40, "productos": ["Camiseta", "Gafas", "Zapatos", "Sombrero", "Pantal\u00f3n", "Reloj", "Zapatillas", "Corbata"], "email": "teresa43@ejemplo.com"}
+{"id": 45, "nombre": "Miguel Mart\u00ednez", "edad": 43, "productos": ["Sombrero"], "email": "miguel44@ejemplo.com"}
+{"id": 46, "nombre": "Fernando Fern\u00e1ndez", "edad": 40, "productos": [], "email": "fernando45@ejemplo.com"}
+{"id": 47, "nombre": "Juan S\u00e1nchez", "edad": 30, "productos": ["Sombrero", "Zapatos", "Cintur\u00f3n", "Pantal\u00f3n"], "email": "juan46@ejemplo.com"}
+{"id": 48, "nombre": "Fernando Ram\u00edrez", "edad": 36, "productos": ["Pantal\u00f3n", "Reloj", "Camiseta", "Gafas", "Cintur\u00f3n", "Corbata"], "email": "fernando47@ejemplo.com"}
+{"id": 49, "nombre": "Ana Garc\u00eda", "edad": 27, "productos": ["Cintur\u00f3n", "Camiseta", "Sombrero", "Corbata"], "email": "ana48@ejemplo.com"}
+{"id": 50, "nombre": "Miguel S\u00e1nchez", "edad": 61, "productos": ["Zapatos"], "email": "miguel49@ejemplo.com"}
+{"id": 51, "nombre": "Ana Fern\u00e1ndez", "edad": 37, "productos": ["Cintur\u00f3n", "Camiseta"], "email": "ana50@ejemplo.com"}
+{"id": 52, "nombre": "Teresa Mart\u00ednez", "edad": 64, "productos": ["Gafas"], "email": "teresa51@ejemplo.com"}
+{"id": 53, "nombre": "Luis Rodr\u00edguez", "edad": 59, "productos": ["Sombrero", "Bolso", "Zapatillas", "Zapatos", "Corbata", "Pantal\u00f3n"], "email": "luis52@ejemplo.com"}
+{"id": 54, "nombre": "Carmen Rodr\u00edguez", "edad": 64, "productos": ["Zapatillas"], "email": "carmen53@ejemplo.com"}
+{"id": 55, "nombre": "Pedro Fern\u00e1ndez", "edad": 46, "productos": ["Sombrero", "Zapatos", "Corbata", "Zapatillas", "Cintur\u00f3n", "Pantal\u00f3n", "Bolso", "Reloj"], "email": "pedro54@ejemplo.com"}
+{"id": 56, "nombre": "Teresa L\u00f3pez", "edad": 30, "productos": ["Pantal\u00f3n", "Bolso"], "email": "teresa55@ejemplo.com"}
+{"id": 57, "nombre": "Juan Garc\u00eda", "edad": 63, "productos": ["Cintur\u00f3n"], "email": "juan56@ejemplo.com"}
+{"id": 58, "nombre": "Miguel Rodr\u00edguez", "edad": 51, "productos": ["Camiseta"], "email": "miguel57@ejemplo.com"}
+{"id": 59, "nombre": "Juan Garc\u00eda", "edad": 36, "productos": ["Bolso", "Corbata", "Cintur\u00f3n", "Pantal\u00f3n"], "email": "juan58@ejemplo.com"}
+{"id": 60, "nombre": "Luis Ram\u00edrez", "edad": 53, "productos": ["Cintur\u00f3n", "Bolso", "Reloj", "Camiseta", "Sombrero", "Zapatos"], "email": "luis59@ejemplo.com"}
+{"id": 61, "nombre": "Ana Gonz\u00e1lez", "edad": 41, "productos": ["Gafas", "Reloj", "Camiseta", "Sombrero", "Bolso", "Pantal\u00f3n", "Corbata", "Zapatillas"], "email": "ana60@ejemplo.com"}
+{"id": 62, "nombre": "Miguel Mart\u00ednez", "edad": 48, "productos": [], "email": "miguel61@ejemplo.com"}
+{"id": 63, "nombre": "Carmen S\u00e1nchez", "edad": 56, "productos": ["Sombrero", "Corbata", "Reloj", "Bolso", "Pantal\u00f3n", "Camiseta", "Zapatillas", "Zapatos"], "email": "carmen62@ejemplo.com"}
+{"id": 64, "nombre": "Luis Rodr\u00edguez", "edad": 39, "productos": ["Cintur\u00f3n", "Zapatos", "Sombrero", "Camiseta"], "email": "luis63@ejemplo.com"}
+{"id": 65, "nombre": "Isabel Torres", "edad": 59, "productos": ["Reloj", "Zapatillas", "Pantal\u00f3n", "Zapatos", "Camiseta", "Sombrero", "Corbata", "Bolso"], "email": "isabel64@ejemplo.com"}
+{"id": 66, "nombre": "Miguel Mart\u00ednez", "edad": 18, "productos": ["Corbata"], "email": "miguel65@ejemplo.com"}
+{"id": 67, "nombre": "Pedro Gonz\u00e1lez", "edad": 37, "productos": ["Pantal\u00f3n", "Reloj", "Bolso", "Zapatillas"], "email": "pedro66@ejemplo.com"}
+{"id": 68, "nombre": "Miguel P\u00e9rez", "edad": 55, "productos": ["Zapatos", "Cintur\u00f3n", "Reloj", "Sombrero", "Corbata", "Camiseta", "Zapatillas", "Pantal\u00f3n"], "email": "miguel67@ejemplo.com"}
+{"id": 69, "nombre": "Luis Garc\u00eda", "edad": 21, "productos": ["Corbata", "Sombrero"], "email": "luis68@ejemplo.com"}
+{"id": 70, "nombre": "Juan Garc\u00eda", "edad": 57, "productos": ["Bolso", "Camiseta", "Gafas"], "email": "juan69@ejemplo.com"}
+{"id": 71, "nombre": "Miguel Fern\u00e1ndez", "edad": 21, "productos": ["Pantal\u00f3n", "Bolso", "Gafas", "Reloj", "Camiseta", "Zapatos"], "email": "miguel70@ejemplo.com"}
+{"id": 72, "nombre": "Miguel Fern\u00e1ndez", "edad": 19, "productos": ["Zapatos", "Bolso", "Corbata", "Pantal\u00f3n"], "email": "miguel71@ejemplo.com"}
+{"id": 73, "nombre": "Mar\u00eda Rodr\u00edguez", "edad": 60, "productos": ["Pantal\u00f3n", "Bolso", "Zapatos", "Gafas"], "email": "mar\u00eda72@ejemplo.com"}
+{"id": 74, "nombre": "Isabel Torres", "edad": 31, "productos": ["Cintur\u00f3n", "Reloj"], "email": "isabel73@ejemplo.com"}
+{"id": 75, "nombre": "Luis S\u00e1nchez", "edad": 52, "productos": ["Bolso", "Corbata", "Sombrero", "Cintur\u00f3n", "Zapatillas", "Gafas", "Zapatos"], "email": "luis74@ejemplo.com"}
+{"id": 76, "nombre": "Juan Garc\u00eda", "edad": 21, "productos": [], "email": "juan75@ejemplo.com"}
+{"id": 77, "nombre": "Mar\u00eda Torres", "edad": 20, "productos": [], "email": "mar\u00eda76@ejemplo.com"}
+{"id": 78, "nombre": "Mar\u00eda Torres", "edad": 29, "productos": ["Cintur\u00f3n", "Camiseta", "Corbata", "Zapatos", "Pantal\u00f3n", "Reloj", "Gafas", "Zapatillas"], "email": "mar\u00eda77@ejemplo.com"}
+{"id": 79, "nombre": "Isabel Fern\u00e1ndez", "edad": 18, "productos": ["Bolso", "Gafas", "Reloj", "Zapatos", "Sombrero"], "email": "isabel78@ejemplo.com"}
+{"id": 80, "nombre": "Carmen L\u00f3pez", "edad": 45, "productos": ["Gafas", "Pantal\u00f3n", "Zapatos", "Zapatillas", "Corbata", "Camiseta"], "email": "carmen79@ejemplo.com"}
+{"id": 81, "nombre": "Juan Fern\u00e1ndez", "edad": 33, "productos": ["Pantal\u00f3n", "Bolso", "Corbata", "Cintur\u00f3n", "Zapatos", "Camiseta"], "email": "juan80@ejemplo.com"}
+{"id": 82, "nombre": "Teresa Torres", "edad": 55, "productos": ["Bolso"], "email": "teresa81@ejemplo.com"}
+{"id": 83, "nombre": "Carmen Fern\u00e1ndez", "edad": 57, "productos": [], "email": "carmen82@ejemplo.com"}
+{"id": 84, "nombre": "Fernando Mart\u00ednez", "edad": 30, "productos": ["Pantal\u00f3n"], "email": "fernando83@ejemplo.com"}
+{"id": 85, "nombre": "Miguel Fern\u00e1ndez", "edad": 60, "productos": ["Gafas", "Camiseta", "Reloj", "Zapatos"], "email": "miguel84@ejemplo.com"}
+{"id": 86, "nombre": "Fernando Rodr\u00edguez", "edad": 33, "productos": ["Corbata", "Sombrero", "Bolso", "Zapatillas", "Pantal\u00f3n", "Gafas"], "email": "fernando85@ejemplo.com"}
+{"id": 87, "nombre": "Miguel Gonz\u00e1lez", "edad": 44, "productos": ["Zapatillas", "Zapatos", "Cintur\u00f3n", "Camiseta", "Corbata", "Pantal\u00f3n", "Sombrero"], "email": "miguel86@ejemplo.com"}
+{"id": 88, "nombre": "Isabel Gonz\u00e1lez", "edad": 36, "productos": ["Camiseta", "Sombrero"], "email": "isabel87@ejemplo.com"}
+{"id": 89, "nombre": "Luis Rodr\u00edguez", "edad": 56, "productos": ["Corbata", "Zapatos", "Bolso"], "email": "luis88@ejemplo.com"}
+{"id": 90, "nombre": "Miguel Torres", "edad": 58, "productos": ["Pantal\u00f3n", "Camiseta", "Corbata"], "email": "miguel89@ejemplo.com"}
+{"id": 91, "nombre": "Carmen L\u00f3pez", "edad": 49, "productos": [], "email": "carmen90@ejemplo.com"}
+{"id": 92, "nombre": "Miguel Gonz\u00e1lez", "edad": 37, "productos": ["Pantal\u00f3n"], "email": "miguel91@ejemplo.com"}
+{"id": 93, "nombre": "Juan L\u00f3pez", "edad": 36, "productos": ["Corbata", "Pantal\u00f3n", "Reloj", "Cintur\u00f3n"], "email": "juan92@ejemplo.com"}
+{"id": 94, "nombre": "Pedro Fern\u00e1ndez", "edad": 23, "productos": ["Gafas", "Zapatos"], "email": "pedro93@ejemplo.com"}
+{"id": 95, "nombre": "Luis Torres", "edad": 55, "productos": ["Corbata", "Camiseta", "Sombrero", "Zapatos", "Pantal\u00f3n", "Zapatillas", "Cintur\u00f3n", "Bolso"], "email": "luis94@ejemplo.com"}
+{"id": 96, "nombre": "Mar\u00eda Ram\u00edrez", "edad": 39, "productos": ["Zapatillas", "Gafas", "Corbata", "Bolso", "Cintur\u00f3n", "Zapatos", "Pantal\u00f3n", "Camiseta"], "email": "mar\u00eda95@ejemplo.com"}
+{"id": 97, "nombre": "Isabel Ram\u00edrez", "edad": 63, "productos": [], "email": "isabel96@ejemplo.com"}
+{"id": 98, "nombre": "Carmen S\u00e1nchez", "edad": 26, "productos": ["Sombrero"], "email": "carmen97@ejemplo.com"}
+{"id": 99, "nombre": "Ana Garc\u00eda", "edad": 65, "productos": ["Sombrero", "Reloj"], "email": "ana98@ejemplo.com"}
+{"id": 100, "nombre": "Pedro Fern\u00e1ndez", "edad": 39, "productos": ["Reloj", "Cintur\u00f3n", "Gafas"], "email": "pedro99@ejemplo.com"}
