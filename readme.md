@@ -14,9 +14,39 @@
 	<img src="https://img.shields.io/badge/English-B1%20(learning%20to%20B2)-0057B8" alt="English level"/>
 	<img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?logo=python&logoColor=white" alt="Python"/>
 	<img src="https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MongoDB-1F6FEB" alt="SQL"/>
+	<img src="https://img.shields.io/badge/Ibis-DuckDB%20%2B%20PostgreSQL-F59E0B" alt="Ibis + DuckDB + PostgreSQL"/>
+	<img src="https://img.shields.io/badge/Advanced%20SQL-Window%20Functions%20%7C%20CUBE-DC2626" alt="Advanced SQL"/>
 	<img src="https://img.shields.io/badge/Code%20Quality-pylint%20%7C%20type%20hints-0A7EA4" alt="Code quality"/>
 	<img src="https://img.shields.io/badge/MongoDB-Atlas%20%7C%20PyMongo-00A35C?logo=mongodb&logoColor=white" alt="MongoDB Atlas"/>
 </p>
+
+## Advanced SQL + Ibis Spotlight
+
+<p>
+  <a href="Avanzadas.ipynb"><img src="https://img.shields.io/badge/Notebook-Avanzadas.ipynb-1D4ED8" alt="Avanzadas notebook"/></a>
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Engine-Ibis%20on%20DuckDB-92400E" alt="Ibis on DuckDB"/>
+  <img src="https://img.shields.io/badge/Methods-CTE%20%7C%20Windows%20%7C%20CUBE%20%7C%20Grouping%20Sets-0F766E" alt="Methods"/>
+</p>
+
+| What I learned in advanced exercises                        | Why this is useful at work                            |
+| ----------------------------------------------------------- | ----------------------------------------------------- |
+| CTE and multi-step SQL logic                                | Breaks complex analysis into clear steps              |
+| Window functions (`ROW_NUMBER`, `SUM OVER`, moving average) | Builds ranked reports and time trends                 |
+| `CUBE` and `GROUPING SETS`                                  | Creates executive summaries with totals and subtotals |
+| SQL to Pandas translation                                   | Checks result consistency across tools                |
+| Ibis expressions                                            | Writes backend-agnostic analytics code                |
+| DuckDB engine reading PostgreSQL                            | Fast local analysis without copying full data         |
+
+<details>
+  <summary><b>Advanced workflow I can now do</b></summary>
+
+1. Connect to PostgreSQL and validate schema/tables.
+2. Build a business query in SQL with CTE + windows.
+3. Rebuild the same logic in Pandas and Ibis for validation.
+4. Compare outputs and explain differences.
+5. Deliver a final, ordered table for decision makers.
+</details>
 
 ## MongoDB Exercises Spotlight
 
@@ -63,7 +93,9 @@ Final solution:
 
 - Data analysis with Pandas: cleaning, grouping, joins, pivot tables, indexing.
 - SQL problem solving: filters, joins, aggregates, date logic, business questions.
+- Advanced SQL analytics: CTE, window functions, moving averages, CUBE, grouping sets.
 - Data quality mindset: validation, consistency checks, and clean outputs.
+- Ibis framework: expression-based analytics with DuckDB engine and PostgreSQL source.
 - Python quality practices: pylint, type hints, logging, and simple tests.
 - Project workflow: Poetry environments, branch strategy, and merge flow.
 
@@ -79,11 +111,29 @@ Final solution:
 ## Selected Outcomes
 
 - Built SQL datasets and answered business questions with clean queries.
+- Solved advanced analytical questions with ranking, cumulative sums, and centered moving averages.
+- Connected Ibis (DuckDB engine) to PostgreSQL and queried tables directly from the database.
+- Implemented CUBE-style reporting for totals/subtotals and translated it to Pandas/Ibis.
 - Created and documented a full ER diagram for relational tables.
 - Connected and worked with MongoDB Atlas using secure credentials from `.env`.
 - Implemented idempotent MongoDB updates to avoid duplicated array values.
 - Improved code readability and maintainability with quality tools.
 - Practiced team-like Git flow: branch, push, review, and merge.
+
+## Value for Hiring Teams
+
+<p align="center">
+	<img src="https://img.shields.io/badge/Business%20Questions-Translated%20to%20SQL%20logic-0E7490" alt="Business to SQL"/>
+	<img src="https://img.shields.io/badge/Validation-SQL%20vs%20Pandas%20vs%20Ibis-7C2D12" alt="Cross validation"/>
+	<img src="https://img.shields.io/badge/Delivery-Clean%20tables%20for%20stakeholders-166534" alt="Delivery"/>
+</p>
+
+This portfolio shows that I can:
+
+- turn unclear business needs into clear analytical steps,
+- write reproducible queries and notebooks,
+- validate results with multiple tools,
+- and communicate outcomes in a simple way.
 
 ## Quick Git Help
 
